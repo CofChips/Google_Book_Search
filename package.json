@@ -12,7 +12,7 @@
     "build": "cd client && npm run build",
     "postinstall": "npm run seed",
     "heroku-postbuild": "npm run build",
-    "seed": "cd seeds && node seed.js"
+    "seed": "cd scripts && node seedDB.js"
   },
   "author": "",
   "license": "ISC",
